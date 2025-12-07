@@ -13,6 +13,4 @@ Key cleaning steps include:
 - Removing rows with negative price or quantity
 - Removing duplicate rows
 
-This project also highlights responsible use of GitHub Copilot to generate and refine functions.
-
-## Files
+This project also highlights responsible use of GitHub Copilot to generate and refine functions
