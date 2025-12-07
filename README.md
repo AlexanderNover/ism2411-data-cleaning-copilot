@@ -2,8 +2,17 @@
 
 Small data cleaning project for ISM2411.
 
-## What
-Loads `data/raw/sales_data_raw.csv`, standardizes column names, strips whitespace, coerces numeric fields, handles missing values (filled with median for price/quantity), removes rows with negative price/quantity and duplicates, and writes `data/processed/sales_data_clean.csv`.
+## Project Overview
+This project demonstrates a Python-based data cleaning workflow using a messy sales dataset.  
+The goal is to load the raw CSV file (`sales_data_raw.csv`), clean it, and save a processed CSV (`sales_data_clean.csv`).  
+Key cleaning steps include:
 
-## Run
-From project root:
+- Standardizing column names (lowercase, underscores)
+- Stripping leading/trailing whitespace from text fields
+- Handling missing values in numeric columns (price, quantity) using median imputation
+- Removing rows with negative price or quantity
+- Removing duplicate rows
+
+This project also highlights responsible use of GitHub Copilot to generate and refine functions.
+
+## Files
